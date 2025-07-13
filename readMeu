@@ -1,0 +1,24 @@
+https://youtu.be/MsUL3Pgofl4?si=Q-4Ta3dWTAjEH7qi
+
+.\.venv\Scripts\activate
+
+pip install django
+
+django-admin startproject setup .
+
+python manage.py startapp todos
+
+py manage.py migrate
+py manage.py makemigrations
+
+pip install python-decouple
+
+pip install dj-database-url
+
+install ext vscode django -> (Baptiste)
+install ext vscode musql -> (Database Client)
+
+pip install crispy-bootstrap5
+
+nohup python3 manage.py runserver 0.0.0.0:8000 &
+
